@@ -19,8 +19,8 @@ $\gamma\$ is ecosystem respiration and PAR is photosynthetically active radiatio
 
 Parameter k was set to a constant value, which was derived from a separate VPD response curve. The VPD response curve was fitted to the whole 
 dataset but using only light-saturated (photosynthetically active radiation, PAR>1200) 
-and VPD limited (>VPD0) conditions, assuming aVPD0 threshold of 10hPa (Körner, 1995)
-A constant value for \alpha was applied which was the slope of the linear regression between NEE and PAR under 
+and VPD limited (>VPD0) conditions, assuming a VPD0 threshold of 10 hPa (Körner, 1995)
+A constant value for $\alpha\$ was applied which was the slope of the linear regression between NEE and PAR under 
 low light conditions (<200 μmol) (Xu et al., 2019).
 
 
