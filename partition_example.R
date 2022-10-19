@@ -10,8 +10,7 @@ require(tidyr)
 require(minpack.lm)
 
 # load in data 
-setwd("/Volumes/MMills1/Manuscript")
-flux<- read.csv("SAFE_FluxTower_GapFilled_12-18_withCIcorrection.csv", header = TRUE)
+flux<- read.csv("data.csv", header = TRUE)
 head(flux)
 
 flux<- flux %>%
