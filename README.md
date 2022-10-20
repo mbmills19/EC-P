@@ -1,8 +1,8 @@
 # Eddy-Covariance-Partitioning
 This is an example code to partition net ecosystem CO2 exchange from eddy covariance into gross primary productivity (GPP) 
-and ecosystem respiration (Reco) using by fitting a light response curve with vapor pressure deficit (VPD) limitation (Lasslop et al. 2010). 
+and ecosystem respiration (Reco) by fitting a light response curve with vapor pressure deficit (VPD) limitation (Lasslop et al. 2010). 
 For this, we used daytime data (observed values between 08:00 – 19:00, no gap-filled data was included), 
-using 7-day moving windows (Equation 1). The model intercept was used as an estimate of Reco.
+using 7-day moving windows (Equation 1). Such data had previously been subject to rigorous quality control. The model intercept was used as an estimate of Reco.
 
 ### Equation 1:
 ```math
